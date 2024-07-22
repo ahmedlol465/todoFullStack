@@ -10,7 +10,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Form, FormField, FormItem, FormLabel, FormControl, FormDescription, FormMessage } from '@/components/ui/form';
+import { Form, FormField, FormItem, FormLabel, FormControl, FormDescription, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 
 import { Textarea } from "@/components/ui/textarea";
@@ -68,12 +68,11 @@ const EditTodoForm = ({todo}: {todo:ITodo}) => {
                     </Button>
 
         </DialogTrigger>
-        {/* <Button variant="outline">Edit Profile</Button> */}
         <DialogContent className="sm:max-w-[425px]">
             <DialogHeader>
                 <DialogTitle>Edit profile</DialogTitle>
                 <DialogDescription>
-                    Make changes to your profile here. Click save when you're done.
+                    Make changes to your profile here. Click save when you"re done.
                 </DialogDescription>
             </DialogHeader>
   
@@ -148,7 +147,7 @@ const EditTodoForm = ({todo}: {todo:ITodo}) => {
 
                                 <Button type="submit">
    
-                                {loading ? <><Spinner/> Save</> : 'Save changes'}
+                                {loading ? <><Spinner/> Save</> : "Save changes"}
                                 </Button>
                     </form>
                 </Form>

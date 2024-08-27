@@ -2,14 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/Provider/Them-provider";
-import { ModeToggle } from "@/components/ModeToggel";
 
 import {
   ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
+
 } from '@clerk/nextjs'
 import Nav from "@/components/ui/Nav";
 
